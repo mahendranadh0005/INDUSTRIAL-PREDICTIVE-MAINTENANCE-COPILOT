@@ -1,0 +1,170 @@
+INDUSTRIAL MACHINE MAINTENANCE MANUAL
+======================================
+Document Type: General Maintenance Reference
+Applicable Equipment: Industrial Manufacturing Machinery
+Version: 1.0
+
+---
+
+CHAPTER 1: INTRODUCTION TO PREDICTIVE MAINTENANCE
+---------------------------------------------------
+
+Predictive maintenance (PdM) is a condition-based maintenance strategy that monitors the actual condition of equipment to decide what maintenance needs to be done. Unlike preventive maintenance, which is performed at scheduled intervals regardless of equipment condition, predictive maintenance is performed only when indicators show that equipment is approaching a failure threshold.
+
+Key benefits of predictive maintenance:
+- Reduces unplanned downtime by up to 50%
+- Extends equipment life
+- Reduces maintenance costs compared to reactive maintenance
+- Improves safety by addressing problems before catastrophic failure
+
+The four primary types of maintenance strategies are:
+1. Reactive (Run-to-failure) — No maintenance until failure
+2. Preventive — Scheduled maintenance at fixed intervals
+3. Predictive — Maintenance based on condition monitoring
+4. Proactive — Root cause analysis and elimination
+
+---
+
+CHAPTER 2: KEY PERFORMANCE INDICATORS (KPIs)
+---------------------------------------------
+
+2.1 Air Temperature
+Air temperature is the ambient temperature surrounding the machine, measured in Kelvin (K). Typical operating range for general manufacturing machines is 295 K to 305 K (approximately 22°C to 32°C). Elevated ambient temperature reduces cooling efficiency and can contribute to heat dissipation failure.
+
+Monitoring guidelines:
+- Normal range: 295 K – 304 K
+- Warning threshold: > 304 K
+- Action required: > 308 K
+If air temperature consistently exceeds normal range, inspect ventilation systems, cooling fans, and HVAC systems in the facility.
+
+2.2 Process Temperature
+Process temperature refers to the temperature at the point of operation (cutting, forming, or processing zone), measured in Kelvin (K). Process temperature is typically 8–12 K higher than air temperature during normal operations.
+
+Monitoring guidelines:
+- Normal differential (Process Temp – Air Temp): 8 K to 12 K
+- Elevated differential > 12 K: inspect cooling fluid, lubrication
+- Large differential > 15 K: stop operation and inspect
+
+A large difference between process temperature and air temperature can indicate:
+- Insufficient lubrication
+- Coolant flow blockage
+- Excessive friction due to worn components
+- Abnormal load or torque
+
+2.3 Rotational Speed
+Rotational speed is measured in revolutions per minute (rpm). It describes how fast a rotating component (motor shaft, spindle, or tool) is turning. Operating outside the design speed range can cause mechanical stress and premature failure.
+
+Monitoring guidelines:
+- Typical operating range: 1200 rpm to 2800 rpm
+- Low speed warning (< 1200 rpm): possible overload or mechanical binding
+- High speed warning (> 2800 rpm): check drive settings and load conditions
+
+Causes of abnormal rotational speed:
+- Drive controller fault
+- Belt slip or coupling wear
+- Overload conditions
+- Bearing damage causing drag
+
+2.4 Torque
+Torque is the rotational force applied to a shaft or tool, measured in Newton-meters (Nm). It directly reflects the mechanical load on the machine. High torque combined with moderate rotational speed is a warning sign of overstrain conditions.
+
+Monitoring guidelines:
+- Normal range: 20 Nm to 60 Nm
+- Elevated torque (> 60 Nm): reduce feed rate or depth of cut
+- Very high torque (> 75 Nm): stop operation immediately
+
+Causes of high torque:
+- Tool wear
+- Incorrect machining parameters
+- Material hardness variation
+- Spindle or bearing damage
+
+The product of torque (Nm) and rotational speed (rpm) is approximately proportional to power. Operating at high torque and low speed, or low torque and high speed, outside the designed operating window can trigger power failure modes.
+
+2.5 Tool Wear
+Tool wear is the cumulative time a cutting or forming tool has been in operation, measured in minutes. Tools degrade over time due to friction, heat, and mechanical stress. As tools wear, cutting forces increase, surface finish deteriorates, and failure risk rises significantly.
+
+Monitoring guidelines:
+- Low wear: 0 – 100 min (normal operation)
+- Moderate wear: 100 – 200 min (monitor closely)
+- High wear: 200 – 250 min (plan tool change)
+- Critical wear: > 250 min (change tool immediately)
+
+Signs of excessive tool wear:
+- Increasing torque at constant speed
+- Elevated process temperature
+- Deteriorating surface finish
+- Increased vibration
+
+---
+
+CHAPTER 3: MACHINE TYPES
+-------------------------
+
+Machines in this dataset are classified into three types based on quality tier:
+
+Type H (High Quality):
+- Highest dimensional precision
+- Smallest production volume
+- Lowest allowable process variation
+- Requires the most frequent maintenance checks
+
+Type M (Medium Quality):
+- Standard manufacturing grade
+- Moderate production volume
+- Standard maintenance intervals
+
+Type L (Low Quality):
+- High production volume
+- Wider dimensional tolerances
+- Higher failure rate due to increased wear
+
+Higher quality type machines (H) typically operate at more stable conditions but require stricter monitoring because deviations are more significant relative to their tight tolerances.
+
+---
+
+CHAPTER 4: LUBRICATION AND COOLING
+-------------------------------------
+
+Proper lubrication is essential for preventing heat buildup and mechanical wear. Lubrication intervals should be followed strictly according to the equipment manufacturer's schedule.
+
+General lubrication guidelines:
+- Check lubricant level daily on high-frequency machines
+- Replace lubricant at manufacturer-specified intervals
+- Use correct lubricant grade for operating temperature range
+- Inspect lubricant for contamination (metal particles, discolouration, water)
+
+Cooling system maintenance:
+- Inspect coolant lines for blockages weekly
+- Check coolant concentration monthly
+- Flush and replace coolant per manufacturer schedule
+- Inspect heat exchanger fins for fouling every 3 months
+
+---
+
+CHAPTER 5: INSPECTION SCHEDULE
+--------------------------------
+
+Daily Inspections:
+- Visual inspection for leaks, unusual noise, or vibration
+- Verify temperature readings are within normal range
+- Confirm rotational speed is stable at operating setpoint
+- Check tool wear counter
+
+Weekly Inspections:
+- Inspect belts, couplings, and drive components
+- Check bearing preload and lubrication
+- Review trend data for rising temperature or torque
+- Test emergency stop and safety interlock functions
+
+Monthly Inspections:
+- Full mechanical inspection of all rotating components
+- Alignment check of spindles and drive shafts
+- Calibration of temperature and speed sensors
+- Review maintenance logs and failure history
+
+Annual Overhaul:
+- Complete disassembly and inspection
+- Replace all wear parts and seals
+- Electrical system inspection and testing
+- Update maintenance records

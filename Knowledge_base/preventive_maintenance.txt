@@ -1,0 +1,251 @@
+PREVENTIVE MAINTENANCE PROGRAMME
+==================================
+Document Type: Preventive Maintenance Schedule and Procedures
+Applicable Equipment: Industrial Manufacturing Machinery
+Version: 1.0
+
+---
+
+INTRODUCTION
+-------------
+
+A preventive maintenance (PM) programme ensures that machinery is serviced at regular intervals to prevent unexpected failure and extend equipment service life. This document defines the minimum recommended maintenance tasks, intervals, and procedures for industrial manufacturing machines.
+
+Preventive maintenance complements predictive maintenance: PM handles scheduled replacement of consumable parts, while predictive maintenance uses real-time sensor data to identify developing problems between scheduled PM intervals.
+
+---
+
+SECTION 1: MAINTENANCE SCHEDULE OVERVIEW
+------------------------------------------
+
+Maintenance frequency is determined by machine type and operational intensity:
+
+High-intensity operations (Type H machines, continuous production):
+- Daily checks
+- Weekly servicing
+- Monthly overhaul preparation
+- Quarterly full overhaul
+
+Standard operations (Type M machines, normal production):
+- Daily checks
+- Bi-weekly servicing
+- Monthly overhaul
+- Semi-annual full overhaul
+
+Low-intensity operations (Type L machines, intermittent production):
+- Daily checks
+- Monthly servicing
+- Bi-annual full overhaul
+
+---
+
+SECTION 2: DAILY MAINTENANCE TASKS
+-------------------------------------
+
+Perform these tasks at the start of each operating shift:
+
+2.1 Visual Inspection
+- Inspect machine exterior for damage, leaks, or loose components
+- Check tool condition and seating
+- Verify all safety guards are in place and secure
+- Inspect coolant level in reservoir
+- Check oil level in lubrication system
+
+2.2 Sensor Check
+- Verify air temperature reading is within normal range (295–305 K)
+- Verify process temperature is within 8–12 K above air temperature
+- Confirm rotational speed stabilises to setpoint within 30 seconds of startup
+- Monitor torque during first 5 minutes of operation for abnormal values
+- Record tool wear counter reading in the maintenance log
+
+2.3 Startup Checks
+- Run machine at 20% speed for 2 minutes before full operation (warm-up)
+- Listen for unusual sounds (grinding, squealing, knocking)
+- Verify smooth acceleration and deceleration
+- Test emergency stop function
+
+---
+
+SECTION 3: WEEKLY MAINTENANCE TASKS
+--------------------------------------
+
+Perform these tasks once per week (or every 40 operating hours):
+
+3.1 Lubrication
+- Apply fresh grease to all specified grease nipples
+- Check automatic lubrication system reservoir and refill if below 50%
+- Inspect lubrication lines for kinks, cracks, or blockages
+- Verify lubricant is reaching all bearing points
+
+3.2 Cooling System
+- Inspect coolant lines for leaks
+- Check coolant pump operation
+- Clean coolant strainer / filter
+- Measure coolant concentration with a refractometer
+
+3.3 Drive System
+- Inspect belts for wear, cracking, or correct tension
+- Check coupling condition and alignment
+- Inspect motor mounting bolts for tightness
+- Check drive controller for fault codes or warning lights
+
+3.4 Tooling
+- Inspect all tool holders for runout and damage
+- Replace tools that have reached their wear limit
+- Clean and inspect tool storage
+- Update tool wear log
+
+---
+
+SECTION 4: MONTHLY MAINTENANCE TASKS
+---------------------------------------
+
+Perform these tasks once per month (or every 160 operating hours):
+
+4.1 Mechanical Inspection
+- Check all fasteners and mounting bolts for tightness (use torque wrench)
+- Inspect all bearings for noise, play, or elevated temperature
+- Measure spindle runout with a dial indicator
+- Inspect gear drives for wear patterns or damage
+
+4.2 Electrical Inspection
+- Inspect all cable connections for looseness, corrosion, or heat damage
+- Test safety interlocks and limit switches
+- Measure motor insulation resistance (megger test)
+- Clean electrical cabinet of dust and debris
+
+4.3 Alignment Check
+- Check spindle / shaft alignment with a laser alignment tool
+- Adjust belt tension if measured tension is outside specification
+- Verify motor coupling alignment
+
+4.4 Calibration
+- Calibrate temperature sensors (compare against reference thermometer)
+- Calibrate speed sensor (compare against tachometer)
+- Verify torque sensor calibration against known load
+- Calibrate the tool wear counter if applicable
+
+---
+
+SECTION 5: TOOL CHANGE PROCEDURE
+-----------------------------------
+
+Tools must be changed when the tool wear counter reaches the recommended limit OR when the following conditions are observed:
+
+Mandatory tool change triggers:
+- Tool wear counter exceeds 200 minutes (check machine-specific spec)
+- Visible chipping, cracking, or deformation of cutting edge
+- Surface finish on workpieces deteriorates noticeably
+- Torque at constant speed increases by more than 20%
+- Process temperature rises by more than 5 K at constant conditions
+
+Tool change procedure:
+1. Stop the spindle completely before approaching the tool
+2. Apply LOTO (lockout/tagout) if required by site safety policy
+3. Allow tool to cool to safe handling temperature
+4. Remove the worn tool using the correct tool-holding key or wrench
+5. Clean the tool holder and taper seat
+6. Inspect the tool holder for wear or damage — replace if required
+7. Install the new tool and verify correct seating and torque
+8. Verify runout with a dial indicator (max allowed: 0.005 mm)
+9. Reset the tool wear counter in the machine controller
+10. Record the tool change in the maintenance log with date and reason
+
+---
+
+SECTION 6: TEMPERATURE MANAGEMENT
+------------------------------------
+
+Overheating is one of the most common contributors to machine failure. Follow these guidelines to manage temperature:
+
+Ambient temperature:
+- Ideal: 20°C to 25°C (293–298 K)
+- Acceptable maximum: 35°C (308 K)
+- If ambient exceeds 35°C: reduce machine duty cycle or add supplemental cooling
+
+Cooling maintenance:
+- Clean all air filter screens monthly to prevent airflow restriction
+- Inspect heat exchanger fins for fouling — clean with compressed air quarterly
+- Verify cooling fan motor draws correct current (compare against nameplate)
+- Check coolant temperature at outlet — should not exceed specification
+
+Signs of cooling system degradation:
+- Rising process temperature trend over weeks
+- Increased temperature differential compared to baseline
+- Coolant discolouration or unusual smell
+- Pump running hot or making unusual noise
+
+---
+
+SECTION 7: MAINTENANCE LOG REQUIREMENTS
+-----------------------------------------
+
+All maintenance activities must be recorded in the maintenance log. The log should include:
+
+For each entry:
+- Date and time
+- Machine identifier
+- Maintenance type (daily check / PM / corrective)
+- Technician name
+- Observations and findings
+- Actions taken
+- Parts replaced (part number, quantity)
+- Sensor readings at time of maintenance
+- Next maintenance due date
+
+Maintenance logs must be retained for at least 3 years for quality assurance and regulatory compliance purposes.
+
+---
+
+SECTION 8: SPARE PARTS MANAGEMENT
+------------------------------------
+
+Critical spare parts that must be stocked to avoid extended downtime:
+
+Consumable parts (replace on schedule):
+- Cutting tools (correct grade for each material)
+- Drive belts
+- Oil and grease
+- Coolant (concentrated)
+- Air filter elements
+- Coolant strainer elements
+
+Strategic spares (stock one per machine):
+- Drive motor
+- Drive controller
+- Coolant pump
+- Spindle bearings
+- Main coupling
+
+Spare parts should be stored in a clean, temperature-controlled environment. Do not use parts that have been stored beyond the manufacturer's recommended shelf life.
+
+---
+
+SECTION 9: SAFETY REQUIREMENTS
+---------------------------------
+
+All maintenance activities must comply with the following safety requirements:
+
+Before any maintenance:
+- Obtain a work permit from the supervisor
+- Apply lockout/tagout (LOTO) to all energy sources
+- Verify energy isolation using a voltage tester / zero-energy verification
+- Notify the production team of the planned downtime
+
+Personal Protective Equipment (PPE):
+- Safety glasses or face shield
+- Cut-resistant gloves when handling tooling
+- Safety footwear
+- Hearing protection in high-noise areas
+
+Electrical safety:
+- Only qualified electricians may work on electrical systems
+- Verify all capacitors are discharged before touching drive components
+- Never bypass safety interlocks during maintenance
+
+After maintenance:
+- Remove all tools and materials from the machine
+- Confirm all guards are reinstalled
+- Remove lockout/tagout devices only by the person who applied them
+- Perform a brief functional test before returning to production
+- Update the maintenance log
